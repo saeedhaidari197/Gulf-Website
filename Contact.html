@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulf Medical Lab</title>
+
+    <!-- aos css file cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- magnific popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<style>
+    
+.bttn_style_2
+{
+    font-family: "Work Sans",sans-serif;
+    letter-spacing: 3px;
+    background-color: rgb(150,8,55);
+    color: white;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    border: 2px solid rgb(150,8,55);
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bttn_style_2:before 
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #222227;
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    -o-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: -moz-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: -ms-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: -o-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+}
+
+.bttn_style_2:hover:before 
+{
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.bttn_style_2:hover 
+{
+    color: white;
+    border-color: #222227;
+}
+
+.contact{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+    box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+    border-radius: 3px;
+}
+.contact-section
+{
+    padding:82px 0px;
+}
+
+.contact-info{
+    background-color: #fff;
+    padding: 40px 30px;
+}
+
+.contact-info h2
+{
+    font-size: 36px;
+    color: rgb(150,8,55);
+    margin: 0 0 8px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    font-family: 'Prata', sans-serif;
+}
+.contact-info p{
+    color: #6c6d6e;
+    padding: 0px 10px;
+}
+.info{
+    text-align: center;
+    color:#6c6d6e;
+}
+.info span{
+    font-size: 30px;
+    color:rgb(150,8,55);
+}
+.contact-form 
+{
+    background-color: #fff;
+    padding: 50px 40px;
+    -webkit-box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+    box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+    border-radius: 3px;
+    min-height: 530px;
+}
+
+.contact-form  .form-control
+{
+    background-color: #fff;
+    border-radius: 0;
+    padding: 25px 10px;
+    box-shadow: none;
+    border: 2px solid #eee;
+}
+
+.contact-form  .form-control:focus 
+{
+    border-color: rgb(150,8,55);
+    box-shadow: none;
+    outline: none;
+}
+</style>
+<body>
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row contact">
+                <div class="col-lg-6 sm-padding" data-aos="fade-left">
+                    <div class="contact-info">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>
+                                    Get In Touch
+                                </h2>
+                                <p>
+                                    Saasbiz is a different kind of architecture practice. Founded by LoganCee in 1991, we’re an employee-owned firm pursuing a democratic design process that values everyone’s input.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-sm-12 info">
+                                        <span class="fas fa-phone"></span>
+                                        <p>0799898989<br>0777777777<br>0788888888<br>dakjshfh</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-sm-12 info">
+                                        <span class="fas fa-phone"></span>
+                                        <p>kajsfa<br>Shar<br>Kabul<br>Afghanistan</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="location-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1459.3260074367872!2d69.16655982989178!3d34.524844126949944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8fb52fb846b50b5!2s8J6FG5F8%2BQP4!5e0!3m2!1sen!2s!4v1645044304038!5m2!1sen!2s" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 sm-padding" data-aos="fade-right">
+                    <div class="contact-form">
+                        <div id="contact_ajax_form" class="contactForm">
+                            <div class="form-group colum-row row">
+                                <div class="col-sm-6">
+                                    <input type="text"  name="name" class="form-control" placeholder="Name" required>
+                                    <div class="invalid-feedback" id="invalid-name" style="display: block">
+                                    	
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text"  name="lastname" class="form-control" placeholder="LastName">
+                                    <div class="invalid-feedback" id="invalid-email" style="display: block">
+                                    	
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <input type="email"  name="email" class="form-control" placeholder="email" required>
+                                    <div class="invalid-feedback" id="invalid-subject" style="display: block">
+                                    	
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <textarea id="contact_message" name="message"  class="form-control message" placeholder="Message"></textarea>
+                                    <div class="invalid-feedback" id="invalid-message" style="display: block">
+                                    	
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <button id="contact_send" class="bttn_style_2">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- footer section ends -->
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- magnific popup js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- aos js file cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- custom js link  -->
+    <script src="main.js"></script>
+</body>
+</html>
